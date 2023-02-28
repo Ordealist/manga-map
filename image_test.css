@@ -1,0 +1,2142 @@
+* { margin:0; padding:0; }
+
+body {
+	background-color: rgb(106, 90, 205);
+
+}
+
+dt{
+	font-weight: bold;
+}
+
+.interface {
+	position: fixed;
+}
+
+.interface_compassScale {
+    position: fixed;
+    bottom: 5px;
+    left: 20px;
+    max-height: 100%;
+    max-width: 100%;
+    /*transform: translateX(10px);*/ 
+}
+
+.caption {
+    position: fixed;
+    bottom: 20px;
+    right: -352px;
+    transform: translateY(0.5px);
+    font-family: helvetica;
+	font: 400 25px helvetica;
+	padding-right: 50px; 
+}
+
+.lock {
+	z-index:9999;
+}
+
+#mapBorderTop{
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	height: 25px;
+	background: grey;
+}
+
+#mapBorderLeft{
+	position: fixed;
+	left: 0px;
+	width:17px;
+	height: 100%;
+	background: grey;
+}
+
+#mapBorderRight{
+	position: fixed;
+	right: 0px;
+	width:17px;
+	height: 100%;
+	background: grey;
+}
+
+#mapBorderBottom{
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	height: 25px;
+	background: grey;
+}
+
+.fixImage{
+	position: top;
+	display: inline-block;
+	/*transform: scale(0.30, 0.30);*/
+	border: 5px solid white;
+	border-radius: 33px;
+	margin-right: 2px;
+	margin-left: 2px;
+}
+
+.header {
+	font-family: helvetica;
+	font-weight: bold;
+	font-size: 18px;
+}
+.paragraph {
+	font-family: helvetica;
+	font: 16px helvetica;
+	line-height: 20px;
+	text-align: left;
+
+}
+
+.dialogue_box {
+	position: fixed;
+	display: none;
+	overflow-y: auto;
+	width: 343px;
+	height: 186px;
+	background-color: lightgrey;
+	margin-right: 2px;
+	margin-left: 2px;
+	margin-top: 3px;
+	padding-top: 9px;	
+	padding-left: 9px;
+	padding-right: 9px
+}
+
+.wrapper{
+  	display: inline-block;
+  	position:relative;
+}
+
+.labels {
+ 	position: absolute;
+ 	z-index: 1;
+}
+
+.shrinkImage {
+	transform: scale(0.04, 0.04);
+}
+
+.shrinkImage_metro {
+	transform: scale(0.089, 0.089);
+}
+
+.invisible_box {
+	background-color: transparent;
+}
+
+.boundary{
+	bottom: -2.5px;
+	left:-40px;
+	display: none;
+}
+
+.boundary_mliggrewgraags{
+	bottom: 6px;
+	left: 593px;
+	display: none;
+}
+
+.boundary_tyodyengdyu{
+	bottom: 3680px;
+	left:80px;
+	display: none;
+}
+
+.boundary_mudsmengsreen {
+	bottom: 3899px;
+	left:1695px;
+	display: none;
+}
+
+.boundary_qhwiylqrensduu {
+	bottom: 3297px;
+	left:2011px;
+	display: none;
+}
+
+.NSK {
+	bottom: 2328px;
+	left:-37px;
+	display: none;
+}
+
+.boundary_kaarang {
+	bottom: 3758px;
+	left:2725px;
+	display: none;
+}
+
+.boundary_lebskheem {
+	bottom: 4950px;
+	left:1316px;
+	display: none;
+}
+
+.boundary_daadskuubgraam {
+	bottom: 5195px;
+	left:1049px;
+	display: none;
+}
+
+.boundary_segaa {
+	bottom: 4420px;
+	left:1953px;
+	display: none;
+}
+
+.boundary_buunskroondyu {
+	top: -7px;
+	left: -11px;
+	display: none;
+}
+
+.singbrongdyuBoundary{
+	bottom: 5px;
+	left:-30px;
+	display: none;
+}
+
+.thyakkwenBoundary{
+	bottom: 2482px;
+	left:1625px;
+	display: none;
+}
+
+.shuggunsrenBoundary{
+	bottom: 1812px;
+	left:1771px;
+	display: none;
+}
+
+.shuggunsrengaqraBoundary{
+	bottom: 680px;
+	left:2869px;
+	display: none;
+}
+
+.qandyengBoundary{
+	bottom: 0px;
+	left:2775px;
+	display: none;
+}
+
+.ronsdyagkhoBoundary{
+	bottom: 1px;
+	left:4022px;
+	display: none;
+}
+
+.hmluuCounty{
+	top: 2px;
+	right:5px;
+	display: none;
+}
+
+.shangdyagzraads{
+	top: 1120px;
+	right:5px;
+	display: none;	
+}
+
+.rewnhaan{
+	top: 1865px;
+	right:1968px;
+	display: none;	
+}
+
+.graamqlegkloog{
+	top: 2095px;
+	right:875px;
+	display: none;
+}
+
+.hzg{
+	top: 1935px;
+	right:5px;
+	display: none;
+}
+
+.kruungsen{
+	top: 3040px;
+	right:850px;
+	display: none;
+}
+
+.sq{
+	top: 70px;
+	right:2655px;
+	display: none;
+}
+
+.srp{
+	top: 20px;
+	right:3725px;
+	display: none;
+}
+
+.gweng{
+	top: 0px;
+	right:6px;
+	display: none;
+}
+
+#airport{
+	text-align: center;
+	box-sizing: border-box;
+	width: 300px;
+	height: 140px;
+	border: 5px;
+	font-family: helvetica;
+	font: 400 30px helvetica;
+	bottom: 56px;/*didn't notice the redundancy, oops. I'll remember next time*/
+	left: 56px;
+	color: blue;
+	bottom: 3300px;
+	left:190px;
+}
+
+.default_style {
+	text-align: center;
+	box-sizing: border-box;
+	width: 300px;
+	height: 80px;
+	border: 5px;
+	font-family: helvetica;
+	font: 400 30px helvetica;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: grey;
+}
+
+.close_button {
+	position: relative;
+	float: right;
+	width:7%;
+	border-radius: 33px;
+	top: 1.5px;
+    right: 7px;
+    /*padding-bottom: 1px;*/
+}
+
+#Singbrongdyu-Tyodyengdyu{
+	background-color: #00B050;
+	color: white;
+}
+
+#Buunskroondyu-Tyodyengdyu{
+	background-color: #663300;
+	color: white;
+}
+
+#Tyodyengdyu_express{
+	background-color: #C00000;
+	color: white;	
+}
+
+#Tyodyengdyu_special{
+	background-color: #E34234;
+	color: white;	
+}
+
+#Tyodyengdyu_special_old{
+	background-color: #92D050;
+	color: white;
+}
+
+#BM_innerRing{
+	background-color: #8497B0;
+	color:white;
+}
+
+#t_loop{
+	background-color: #002060;
+	color: white;	
+}
+
+#t_uitloop{
+	background-color: #FF0066;
+	color: white;	
+}
+
+#t_tyosreen{
+	background-color: #BA1C98;
+	color: white;	
+}
+
+#airportExpress{
+	background-color: #33CCCC;
+	color: white;	
+}
+
+#LK_natl{
+	background-color: #ED7D31;
+	color: white;	
+}
+
+#RR_natl{
+	background-color: #4472C4;
+	color: white;
+}
+
+#BB_express{
+	background-color: #2F528F;
+	color: white;
+}
+
+#BG_exp{
+	background-color: #FF0066;
+	color: white;
+}
+
+#BG_Nexp{
+	background-color: #7030A0;
+	color: white;
+}
+
+#fost_ring{
+	background-color: #FF0000;
+	color: white;
+}
+
+#sec_ring{
+	background-color: #339966;
+	color: white;
+}
+
+#uni_line{
+	background-color: #BA1C98;
+	color: white;
+}
+
+#shuttle{
+	background-color: #767171;
+	color: white;	
+}
+
+#BM_4thRing {
+	background-color: #203864;
+	color: white;
+}
+
+#BM_innerRing {
+	background-color: #8497B0;
+	color: white;
+}
+
+#BM_EN {
+	background-color: #548235;
+	color: white;
+}
+
+#BS_exp {
+	background-color: yellow;
+}
+
+#dragGrd {
+	background: -webkit-linear-gradient(#200036, #996003);
+	color: white;
+}
+
+#third_ring {
+	background-color: #FF0066;
+	color: white;
+}
+
+#BM_WN {
+	background-color: #222A35;
+	color: white;
+}
+
+#monorail {
+	background-color: #50889A;
+	color: white;
+}
+
+#SQ_line {
+	background-color: #BA1C98;
+	color: white;
+}
+
+#SR_line {
+	background-color: #C55A11;
+	color: white;	
+}
+
+#BG_line {
+	background-color: #50889A;
+	color: white;		
+}
+
+#BDU_airport_station {
+	bottom: 2539px;
+	left:-530px;
+
+}
+
+#BDU_airport_east_sta {
+	bottom: 2795px;
+	left:160px;
+
+}
+
+#BDU_fluominnastratia_sta {
+	bottom: 2456px;
+	left:327px;
+
+}
+
+#BDU_air_terminal_sta {
+	bottom: 2560px;
+	left:-55px;	
+
+}
+
+#phangwan_district {
+	bottom: 1860px;
+	left:920px;
+}
+
+#phangwan_industrial{
+	bottom: 2500px;
+	left:920px;
+}
+
+#phangwan_station {
+	bottom: 1200px;
+	left:-170px;
+}
+
+#Workers_Dormitory_Town_I_Station {
+	bottom: 1425px;
+	left: 430px;
+
+}
+
+#Workers_Dormitory_Town_II_Station {
+	bottom: 1475px;
+	left: 120px;
+
+}
+
+#Workers_Dormitory_Town_III_Station {
+	bottom: 1550px;
+	left: -150px;	
+
+}
+
+#Mliggrewgraags_station {
+	bottom: 950px;
+	left:920px;
+
+}
+
+#Mliggrewgraags_district {
+	bottom: 1400px;
+	left:1789px;
+}
+
+#World_Station {
+	bottom: 1700px;
+	left: -320px;	
+}
+
+#Workers_Dormitory_Town_VI_Station {
+	bottom: 1850px;
+	left: -465px;
+
+}
+
+#Airport_West_Station_IV {
+	bottom: 2130px;
+	left: -620px;
+
+}
+
+#Airport_West_Station_III {
+	bottom: 2430px;
+	left: -620px;
+
+}
+
+#Airport_West_Station_II {
+	bottom: 2730px;
+	left: -620px;
+
+}
+
+#Airport_West_Station_I {
+	bottom: 3090px;
+	left: -620px;
+
+}
+
+#Airport_Riverside_Station {
+	bottom: 3355px;
+	left:-235px;	
+
+}
+
+#Airport_North_Station {
+	bottom: 3290px;
+	left:160px;	
+
+}
+
+#Graasreen_Station {
+	bottom: 495px;
+	left:906px;
+
+}
+
+#Graanghvuu_Station {
+	bottom: 185px;
+	left:1111px;
+
+}
+
+#Tyudyenghvosgun_Station {
+	bottom: 3675px;
+	left:195px;
+
+}
+
+#Tyodyengdyu_Station {
+	bottom: 3960px;
+	left:275px;
+
+}
+
+#Tyodyengdyu_Station_south {
+	bottom: 3810px;
+	left:475px;
+
+}
+
+#Tyodyengdyu_Station_north {
+	bottom: 4270px;
+	left:376px;
+
+}
+
+#West_Mudsmengsreen_Station {
+	bottom: 3635px;
+	left:825px;
+
+}
+
+#Suudshvre_Station  {
+	bottom: 3610px;
+	left:565px;
+
+}
+
+#Victory_square {
+	bottom: 4488px;
+	left:743px;
+
+}
+
+#West_gatebrg_sta{
+	bottom: 4433px;
+	left:823px;	
+
+}
+
+#Daankhraang_Station {
+	bottom: 4365px;
+	left:883px;	
+
+}
+
+#South_gatebrg_sta {
+	bottom: 4380px;
+	left:988px;
+
+}
+
+#East_gatebrg_sta {
+	bottom: 4495px;
+	left:1065px;
+
+}
+
+#Mudsmensreen_Road_sta {
+	bottom: 4620px;
+	left:1130px;	
+
+}
+
+#Lalyins_Station {
+	bottom: 4682px;
+	left:975px;	
+
+}
+
+#North_gatebrg_sta {
+	bottom: 4653px;
+	left:841px;		
+
+}
+
+#Kaankaan_Station {
+	bottom: 4580px;
+	left:790px;		
+
+}
+
+#west_tyodyeng {
+	bottom: 4468px;
+	left:603px;
+
+}
+
+#Mrangreels_sta {
+	bottom: 4310px;
+	left:773px;
+
+}
+
+#bibraadyo_sta {
+	bottom: 4285px;
+	left:1018px;
+
+}
+
+#gwengbaan_sta {
+	bottom: 4465px;
+	left:1150px;
+
+}
+
+#outer_ring_sta{
+	bottom: 4620px;
+	left:1223px;
+
+}
+
+#Kheekhuum_sta {
+	bottom: 4755px;
+	left:1150px;
+
+}
+
+#Grumsgwen_sta {
+	bottom: 4325px;
+	left:-120px;
+
+}
+
+#ring_intersection_sta {
+	bottom: 4767px;
+	left:772px;
+
+}
+
+#Hvruusgaam_sta {
+	bottom: 4627px;
+	left:675px;
+
+}
+
+#Hvuushuw_sta {
+	bottom: 4369px;
+	left:453px;
+
+}
+
+#tyosreen_sta {
+	bottom: 4270px;
+	left:343px;
+
+}
+
+#Qhwyiilmluug_Station {
+	bottom: 4928px;
+	left:603px;
+
+}
+
+#tuunmog_sta {
+	bottom: 5100px;
+	left:453px;
+
+}
+
+#Kaasreewssqhra_Station {
+	bottom: 4287px;
+	left:509px;	
+
+}
+
+#Ruudyo_Station {
+	bottom: 4229px;
+	left:659px;	
+
+}
+
+#Tyodyengdyu_Station_west {
+	bottom: 4100px;
+	left:-570px;
+
+}
+
+#Zlanbooqlool_Station{
+	bottom: 3470px;
+	left:635px;
+
+}
+
+#Kwraangliing_Station{
+	bottom: 3325px;
+	left:735px;
+
+}
+
+#Tyodyeng_rd_Station{
+	bottom: 3150px;
+	left:880px;
+
+}
+
+#Mroonshvreens_Station {
+	bottom: 3180px;
+	left:1078px;
+
+}
+
+#Zaangzraads_Station{
+	bottom: 3150px;
+	left:1282px;
+
+}
+
+#Braagsmewbroog_Station{
+	bottom: 3140px;
+	left:1500px;
+
+}
+
+#Sreennuum_Station{
+	bottom: 3170px;
+	left:1160px;
+
+}
+
+#Sreennuumtoong_Station{
+	bottom: 3240px;
+	left:1295px;
+
+}
+
+#foth_ring_Station{
+	bottom: 3290px;
+	left:1490px;
+
+}
+
+#Gwengrulnuum_Station{
+	bottom: 3275px;
+	left:2245px;
+
+}
+
+#Gwengrulnuum_2{
+	bottom: 3780px;
+	left:2775px;
+
+}
+
+#South_Mudsmengsreen_Station {
+	bottom: 3490px;
+	left:1265px;
+
+}
+
+#Muggunbong_station {
+	bottom: 4487px;
+	left:-270px;
+
+}
+
+#Qhwiiggraags_Station {
+	bottom: 3530px;
+	left:1970px;
+
+}
+
+#Victory_prk_Station {
+	bottom: 3430px;
+	left:2300px;
+
+}
+
+#dyagthuub_Station {
+	bottom: 3340px;
+	left:2495px;	
+
+}
+
+#grandJunct_Station {
+	bottom: 3200px;
+	left:2680px;
+
+}
+
+#libertySquare_Station {
+	bottom: 3130px;
+	left:2815px;
+
+}
+
+#Sniper_hill{
+	bottom: 3870px;
+	left:2465px;	
+
+}
+
+#Mudsmensreen_Rd_Sta{
+	bottom: 4140px;
+	left:2465px;	
+
+}
+
+#Shleenggu_Sta{
+	bottom: 4505px;
+	left:3500px;
+
+}
+
+#UniPark_Sta{
+	bottom: 4605px;
+	left:3080px;
+
+}
+
+#Dyangruum_Sta{
+	bottom: 4565px;
+	left:2940px;
+
+}
+
+#Gwraqlool_sta{
+	bottom: 4360px;
+	left:2680px;
+
+}
+
+#Buulqhunshrag_sta{
+	bottom: 3580px;
+	left:2755px;
+
+}
+
+#Toongserlaag_sta{
+	bottom: 3480px;
+	left:3005px;
+
+}
+
+#old_mansion{
+	bottom: 3460px;
+	left:3095px;
+
+}
+
+#foth_ring_2{
+	bottom: 3720px;
+	left:1520px;
+
+}
+
+#west_uniPark{
+	bottom: 3975px;
+	left:1780px;
+
+}
+
+#daadsngodyag_sta{
+	bottom: 4115px;
+	left:2860px;
+
+}
+
+#Tyodyengpuug_sta{
+	bottom: 4860px;
+	left:350px;
+
+}
+
+#Kruungskroong_sta{
+	bottom: 5030px;
+	left:650px;
+
+}
+
+#River_peninsula{
+	bottom: 5050px;
+	left:777px;
+
+}
+
+#lebskheem_south_sta{
+	bottom: 4650px;
+	left:1625px;
+
+}
+
+#Segaa_sta{
+	bottom: 4375px;
+	left:2025px;
+
+}
+
+#mudsmengsreen_east_sta{
+	bottom: 3975px;
+	left:2115px;
+
+}
+
+#south_uniPark_sta{
+	bottom: 3830px;
+	left:2465px;
+
+}
+
+#Musmengsreen_rd_3{
+	bottom: 3560px;
+	left:2180px;
+
+}
+
+#Brongluudskoon_sta{
+	bottom: 3510px;
+	left:2660px;
+
+}
+
+#old_market_sta{
+	bottom: 3390px;
+	left:2600px;
+
+}
+
+#old_town_sta{
+	bottom: 3370px;
+	left:1700px;
+
+}
+
+#cityGate_sta{
+	bottom: 3220px;
+	left:1925px;	
+
+}
+
+#Nguulbaans_sta{
+	bottom: 3510px;
+	left:3775px;
+
+}
+
+#Nguulgrumshuun_sta{
+	bottom: 3570px;
+	left:3700px;
+
+}
+
+#Dyaggralzod_sta{
+	bottom: 3630px;
+	left:3630px;
+
+}
+
+#Graaghlyonsha_sta{
+	bottom: 3715px;
+	left:3540px;
+
+}
+
+#Rangsreen_rd_sta{
+	bottom: 3795px;
+	left:3370px;
+
+}
+
+#Brongluudskoon_sta_2{
+	bottom: 3755px;
+	left:3265px;
+
+}
+
+#Tuudsmruukhee_sta{
+	bottom: 3575px;
+	left:3065px;
+
+}
+
+#Serlaag_sta{
+	bottom: 3370px;
+	left:2925px;
+
+}
+
+#Qhlyilliing_sta{
+	bottom: 3485px;
+	left:2745px;
+
+}
+
+#sta10_sta{
+	bottom: 3200px;
+	left:2860px;
+
+}
+
+#actual_sta10{
+	bottom: 3290px;
+	left:2860px;
+
+}
+
+#neuSta2_sta{
+	bottom: 3200px;
+	left:2952px;
+
+}
+
+#neuSta3_sta{
+	bottom: 3260px;
+	left:3030px;
+
+}
+
+#neuSta5_sta{
+	bottom: 3170px;
+	left:3080px;
+
+}
+
+#neuSta6_sta{
+	bottom: 3090px;
+	left:3142px;
+
+}
+
+#weirview_sta{
+	bottom: 3030px;
+	left:3400px;
+
+}
+
+#RangsreenRd_sta{
+	bottom: 3550px;
+	left:3200px;
+
+}
+
+#Brongluudskoon2_sta{
+	bottom: 3630px;
+	left:3325px;
+
+}
+
+#Kwrudyeng_sta{
+	bottom: 3610px;
+	left:3495px;
+
+}
+
+#Gwungdyeng_sta{
+	bottom: 3495px;
+	left:3620px;
+
+}
+
+#Mogkloongkoon_sta{
+	bottom: 3425px;
+	left:3625px;
+
+}
+
+#Rduungqrang_sta{
+	bottom: 3300px;
+	left:3540px;
+
+}
+
+#Krumbrongdyengzleen_sta{
+	bottom: 3265px;
+	left:3460px;
+
+}
+
+#GoldDrg_sta{
+	bottom: 3245px;
+	left:3390px;
+
+}
+
+#PalaceWest_sta{
+	bottom: 3280px;
+	left:3220px;
+
+}
+
+#BrongluudskoonII{
+	bottom: 3325px;
+	left:3160px;
+
+}
+
+#Kruughvung_sta{
+	bottom: 3380px;
+	left:3100px;
+
+}
+
+#foreignDistrict_sta{
+	bottom: 3540px;
+	left:3490px;
+
+}
+
+#foreignDistrictSouth_sta{
+	bottom: 3480px;
+	left:3500px;
+
+}
+
+#Hlinbrong_sta{
+	bottom: 3400px;
+	left:3530px;
+
+}
+
+#Khyonqrenshvuug_sta{
+	bottom: 3360px;
+	left:3470px;
+
+}
+
+#royalGardens_sta{
+	bottom: 3310px;
+	left:3390px;	
+
+}
+
+#greenDragon_sta{
+	bottom: 3340px;
+	left:3235px;	
+
+}
+
+#guildDist_sta{
+	bottom: 3485px;
+	left:3235px;	
+
+}
+
+#sta11_sta{
+	bottom: 3180px;
+	left:3180px;
+
+}
+
+#Hmluudaan_sta{
+	bottom: 3410px;
+	left:3255px;
+
+}
+
+#Brongluudskoon4_sta{
+	bottom: 3525px;
+	left:3325px;
+
+}
+
+#RangsreenRd2_sta{
+	bottom: 3915px;
+	left:3315px;
+
+}
+
+#Qhwlyilskengthuub_sta{
+	bottom: 4050px;
+	left:3240px;
+
+}
+
+#Nangdongs_sta{
+	bottom: 4230px;
+	left:3190px;
+
+}
+
+#southUniPark_sta{
+	bottom: 4400px;
+	left:3130px;
+
+}
+
+#Sekhuuds_sta{
+	bottom: 4680px;
+	left:3040px;
+
+}
+
+#Hvuugserlaag_sta{
+	bottom: 3620px;
+	left:2900px;
+
+}
+
+
+#Hvangzruraag_sta{
+	bottom: 3700px;
+	left:2825px;
+
+}
+
+#Brongtyolyus_sta{
+	bottom: 4020px;
+	left:2830px;
+
+}
+
+#Brongtyolyuspuug_sta{
+	bottom: 4140px;
+	left:2880px;
+
+}
+
+#RS_sta{
+	bottom: 4150px;
+	left:3310px;
+
+}
+
+#Hvulbrong_sta{
+	bottom: 4000px;
+	left:3340px;
+
+}
+
+#Sglonggrumhvuug_sta{
+	bottom: 3880px;
+	left:3600px;
+
+}
+
+#Sglonggrum_sta{
+	bottom: 3780px;
+	left:3650px;
+
+}
+
+#Dyagmaags_sta{
+	bottom: 3710px;
+	left:2000px;
+
+}
+
+#brongdyu_station_east{
+	bottom: 2915px;
+	left:3130px;
+
+}
+
+#brongdyu_station_south{
+	bottom: 2815px;
+	left:2830px;
+
+}
+
+#Revolutionary_martyrs_sta{
+	bottom: 3200px;
+	left:2950px;
+
+}
+
+#BraveBattle_Station{
+	bottom: 3340px;
+	left:2990px;
+
+}
+
+#BaaggaalGaadong_Station{
+	bottom: 3460px;
+	left:2990px;
+
+}
+
+#brongdyu_station_southDeNuum{
+	bottom: 2630px;
+	left:2790px;
+
+}
+
+#sta8 {
+	bottom: 2790px;
+	left:1370px;
+
+}
+
+#staA7{
+	bottom: 2700px;
+	left:1540px;
+
+}
+
+#B_sta{
+	bottom: 2970px;
+	left:2290px;
+
+}
+
+#C_sta{
+	bottom: 2790px;
+	left:2350px;
+
+}
+
+#D_sta{
+	bottom: 2650px;
+	left:2450px;		
+
+}
+
+#E_sta{
+	bottom: 2610px;
+	left:2650px;		
+
+}
+
+#F_sta{
+	bottom: 2570px;
+	left:2790px;		
+
+}
+
+#G_sta{
+	bottom: 2520px;
+	left:2940px;		
+
+}
+
+#H_sta{
+	bottom: 2535px;
+	left:3090px;	
+
+}
+
+#sta2{
+	bottom: 3010px;
+	left:3130px;
+
+}
+
+#sta3{
+	bottom: 2920px;
+	left:3010px;
+
+}
+
+#Nuumsreenpuug_sta{
+	bottom: 2260px;
+	left:2480px;
+
+}
+
+#NewEra_sta{
+	bottom: 2720px;
+	left:2790px;
+
+}
+
+#sta6{
+	bottom: 2810px;
+	left:2560px;
+
+}
+
+#sta9{
+	bottom: 3300px;
+	left:2650px;
+
+}
+
+#sta12{
+	bottom: 3340px;
+	left:2270px;
+
+}
+
+#sta13{
+	bottom: 3350px;
+	left:1910px;
+
+}
+
+#sta14{
+	bottom: 3410px;
+	left:1610px;
+
+}
+
+#Thyakkwen_sta{
+	bottom: 2040px;
+	left:2370px;	
+
+}
+
+#Rewlyushvuug_sta{
+	bottom: 2970px;
+	left:3300px;
+
+}
+
+#Rewlyussuul_sta{
+	bottom: 2860px;
+	left:3250px;
+
+}
+
+#fourthRing_sta{
+	bottom: 2770px;
+	left:3130px;
+
+}
+
+#templeNorth_sta{
+	bottom: 2640px;
+	left:3030px;
+
+}
+
+#Rewlyus_sta{
+	bottom: 2840px;
+	left:3360px;
+
+}
+
+#Rudbrong_sta{
+	bottom: 2780px;
+	left:3460px;
+
+}
+
+#Rudbrongtoong_sta{
+	bottom: 2810px;
+	left:3690px;
+
+}
+
+#Nuumsreen_sta{
+	bottom: 2805px;
+	left:3890px;
+
+}
+
+#Nuumsreentoong_sta{
+	bottom: 2789px;
+	left:4080px;
+
+}
+
+#Sreenhvlum_sta{
+	bottom: 2789px;
+	left:4240px;
+
+}
+
+#Toongnuumsreenkhoo_sta{
+	bottom: 2830px;
+	left:4420px;
+
+}
+
+#Brongdyutoong_sta{
+	bottom: 3123px;
+	left:2980px;
+
+}
+
+#Brongdyupuug_sta{
+	bottom: 4203px;
+	left:2900px;
+
+}
+
+#GoldDrgPwest_sta{
+	bottom: 2701px;
+	left:2605px;
+
+}
+
+#weirviewSouth_sta{
+	bottom: 2523px;
+	left:2650px;
+
+}
+
+#Brondyu_Station_north{
+	bottom: 3045px;
+	left:2930px;
+
+}
+
+#weirView_sta{
+	bottom: 3045px;
+	left:3570px;
+
+}
+
+#Goonghvre_sta{
+	bottom: 3085px;
+	left:4000px;
+
+}
+
+#Mangram_sta{
+	bottom: 3295px;
+	left:4200px;
+
+}
+
+#Kraagsreennuum_sta{
+	bottom: 3745px;
+	left:3870px;
+
+}
+
+#Sreenkloolhvuug_sta{
+	bottom: 3620px;
+	left:4090px;
+
+}
+
+#Kraagsreentoong_sta{
+	bottom: 3865px;
+	left:3970px;
+
+}
+
+#Kragsreensuul_sta{
+	bottom: 3935px;
+	left:3810px;
+
+}
+
+#Dyokroon_sta{
+	bottom: 4125px;
+	left:4080px;
+
+}
+
+#Shleengrogzrads_sta{
+	bottom: 4450px;
+	left:4020px;
+
+}
+
+#Rangsreenkroongkroong_sta{
+	bottom: 4700px;
+	left:4220px;
+
+}
+
+#Goongraals_sta{
+	bottom: 4750px;
+	left:4520px;
+
+}
+
+#Deensthaaws_sta{
+	bottom: 5170px;
+	left:4720px;
+
+}
+
+#Kraagsreenpuug_sta{
+	bottom: 4190px;
+	left:3720px;
+
+}
+
+#buunskroondyu_sta{
+	bottom: 5635px;
+	left:2520px;
+
+}
+
+#Sreenklool_sta{
+	bottom: 2970px;
+	left:3330px;
+
+}
+
+#Deensthaawsnuum_sta{
+	bottom: 4480px;
+	left:3700px;
+
+}
+
+#Shaangdyagzraads_sta{
+	bottom: 4290px;
+	left:4770px;
+
+}
+
+#Gwengaa_sta{
+	bottom: 3510px;
+	left:4350px;
+
+}
+
+#Orkaxtal_sta{
+	bottom: 3865px;
+	left:5230px;
+
+}
+
+#Ngongbrong_sta{
+	bottom: 3610px;
+	left:4980px;
+
+}
+
+#Nuumgraamqlegkloog_sta{
+	bottom: 3490px;
+	left:4775px;
+
+}
+
+#Ngrummun_sta{
+	bottom: 3350px;
+	left:4465px;
+
+}
+
+#Kolotorx_sta{
+	bottom: 3555px;
+	left:5235px;
+
+}
+
+#Xoxkan_sta{
+	bottom: 3315px;
+	left:5060px;
+
+}
+
+#Kruungsenhvuug_sta{
+	bottom: 3195px;
+	left:4910px;
+
+}
+
+#Kruungsen_sta{
+	bottom: 2960px;
+	left:4810px;
+
+}
+
+#lakeNorth_sta{
+	bottom: 4120px;
+	left:5650px;
+
+}
+
+#lakeEast_sta{
+	bottom: 3990px;
+	left:5580px;
+
+}
+
+#Daadshvre_sta{
+	bottom: 4450px;
+	left:4270px;
+
+}
+
+#Puuggraamqlegkloog_sta{
+	bottom: 4300px;
+	left:4560px;
+
+}
+
+#Graamqlegkloog_sta{
+	bottom: 3900px;
+	left:4490px;
+
+}
+
+#Hvruukloog_sta{
+	bottom: 4820px;
+	left:5230px;
+
+}
+
+#Shaangdyagzraadssuul_sta{
+	bottom: 4720px;
+	left:5530px;
+
+}
+
+#Daadskuubgraam_sta{
+	bottom: 4760px;
+	left:2950px;
+
+}
+
+#DaadskuubgraamWest_sta{
+	bottom: 4870px;
+	left:2350px;
+
+}
+
+#leebskheemWest_station{
+	bottom: 4905px;
+	left:500px;	
+
+}
+
+#mudsmengNorth_Station{
+	bottom: 4845px;
+	left:790px;	
+
+}
+
+#leebskheem_Station{
+	bottom: 4850px;
+	left:1725px;	
+
+}
+
+#leebskheemEast_Station{
+	bottom: 4810px;
+	left:2275px;
+
+}
+
+#Kheeglyils_Station{
+	bottom: 4870px;
+	left:2640px;
+
+}
+
+#Shuugunsreen_Station{
+	bottom: 1270px;
+	left:2320px;
+
+}
+
+#ShuugunsreegraqraWest_Station{
+	bottom: 760px;
+	left:2600px;
+
+}
+
+#Shuugunsreegraqra_Station{
+	bottom: 760px;
+	left:2749px;
+
+}
+
+#ShuugunsreegraqraWestII_Station{
+	bottom: 580px;
+	left:2600px;
+
+}
+
+#ShuugunsreegraqraSouth_Station{
+	bottom: 0px;
+	left:2620px;
+
+}
+
+#qangdyeng_Station{
+	bottom: -350px;
+	left:2590px;
+
+}
+
+#induParkNorth_Station{
+	bottom: 635px;
+	left:2940px;
+
+}
+
+#fifthRing_Station{
+	bottom: 480px;
+	left:3000px;
+
+}
+
+#induParkSouth_Station{
+	bottom: 280px;
+	left:2995px;
+
+}
+
+#outerRing_Station{
+	bottom: 20px;
+	left:2985px;
+
+}
+
+#Qandyeng_Station{
+	bottom: -350px;
+	left:2975px;
+
+}
+
+#sreenkhee_Station{
+	bottom: 680px;
+	left:3275px;
+
+}
+
+#roomdyagkhooWest_Station{
+	bottom: 920px;
+	left:3455px;
+
+}
+
+#roomdyagkhooNorth_Station{
+	bottom: 1190px;
+	left:3575px;
+
+}
+
+#roomdyagkhoo_Station{
+	bottom: 900px;
+	left:3225px;
+
+}
+
+#roomdyagkhooSouth_Station{
+	bottom: 500px;
+	left:3595px;
+
+}
+
+#b_sta{
+	bottom: 1280px;
+	left:3339px;
+
+}
+
+#quunleen_Station{
+	bottom: -30px;
+	left:4435px;
+
+}
+
+#Thyunggaa_Station{
+	bottom: 560px;
+	left:2345px;
+
+}
+
+#Grumboong_Station{
+	bottom: 130px;
+	left:1450px;
+
+}
+
+#scholarLake_Station{
+	bottom: 4390px;
+	left:2075px;
+
+}
+
+#tyodyengdyu_district {
+	bottom: 4810px;
+	left:600px;
+}
+
+#buunskroondyu_district {
+	bottom: 6410px;
+	left:3500px;
+}
+
+#ronsdyagkho_district {
+	bottom:1395px;
+	right:2550px;
+}
+
+#qhwilqrensduu_district {
+	bottom: 3730px;
+	left:2125px;
+}
+
+#kaarang_district {
+	bottom: 4480px;
+	left:3600px;
+}
+
+.box {
+	text-align: center;
+	box-sizing: border-box;
+	border-width: 2.5px;
+	border-radius: 25px;
+	margin-left: 2.5px;
+	margin-right: 2.5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: 10;
+	font-family: helvetica;
+	font: 400 25px helvetica;
+	font-size: 375%;
+	color: rgb(55, 55, 55);
+}*/
+
+
+/** Large Devices **/
+
+@media (min-width: 992px){
+	.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5,
+	.col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10,
+	.col-lg-11, .col-lg-12{
+		float: left;
+	}
+	.col-lg-1{
+		width: 8.33%;
+	}
+	.col-lg-2{
+		width: 16.66%;
+	}
+	.col-lg-3{
+		width: 25%;
+	}
+	.col-lg-4{
+		width: 33.33%;
+	}
+	.col-lg-5{
+		width: 46.66%;
+	}
+	.col-lg-6{
+		width: 50%;
+	}
+	.col-lg-7{
+		width: 58.33%;
+	}
+	.col-lg-8{
+		width: 66.66%;
+	}
+	.col-lg-9{
+		width: 74.99%;
+	}
+	.col-lg-10{
+		width: 83.33%;
+	}
+	.col-lg-11{
+		width: 91.66%;
+	}
+	.col-lg-12{
+		width: 100%;
+	}
+}
+
+/** Medium Devices **/
+
+@media (min-width: 768px) and (max-width: 991px){
+	.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5,
+	.col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10,
+	.col-md-11, .col-md-12{
+		float: left;
+	}
+	.col-md-1{
+		width: 8.33%;
+	}
+	.col-md-2{
+		width: 16.66%;
+	}
+	.col-md-3{
+		width: 25%;
+	}
+	.col-md-4{
+		width: 33%;
+	}
+	.col-md-5{
+		width: 41.66%;
+	}
+	.col-md-6{
+		width: 50%;
+	}
+	.col-md-7{
+		width: 58.33%;
+	}
+	.col-md-8{
+		width: 66.66%;
+	}
+	.col-md-9{
+		width: 74.99%;
+	}
+	.col-md-10{
+		width: 83.33%;
+	}
+	.col-md-11{
+		width: 91.66%;
+	}
+	.col-md-12{
+		width: 100%;
+	}
+}
+
+/** Small Devices **/
+
+@media (max-width: 767px){
+	.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5,
+	.col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10,
+	.col-sm-11, .col-sm-12{
+		float: left;
+	}
+	.col-sm-1{
+		width: 8.33%;
+	}
+	.col-sm-2{
+		width: 16.66%;
+	}
+	.col-sm-3{
+		width: 25%;
+	}
+	.col-sm-4{
+		width: 33%;
+	}
+	.col-sm-5{
+		width: 41.66%;
+	}
+	.col-sm-6{
+		width: 50%;
+	}
+	.col-sm-7{
+		width: 58.33%;
+	}
+	.col-sm-8{
+		width: 66.66%;
+	}
+	.col-sm-9{
+		width: 74.99%;
+	}
+	.col-sm-10{
+		width: 83.33%;
+	}
+	.col-sm-11{
+		width: 91.66%;
+	}
+	.col-sm-12{
+		width: 100%;
+	}
+}
+/*<img imgid="theImage" src="brongdyu_city_map (road only).png" alt="Map of Dragon City">
+document.getElementById("mapImg").src="C:/Users//Austin Brown//Pictures//brongdyu city map showcase.png";
+<p><input class="interface" type="button" id="theButton" value="test" onclick="pictureChange()"></p>
+<img id="mapImg" src="C:/Users//Austin Brown//Pictures//brongdyu_city_map (road only).png">
+<input type="button" class="box" id="theButton" value="Public transit" onclick="pictureChange()">
+<input type="button" class="box" id="theButton2" value="Default" onclick="pictureChange2()">
+*/
