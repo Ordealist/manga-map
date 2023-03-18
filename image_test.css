@@ -128,6 +128,130 @@ dt{
 	background-color: transparent;
 }
 
+.bg-marker_spot2 {
+    width: 2898px; height: 1427px;
+    background: url('https://github.com/Ordealist/manga-map/blob/main/marker_spot2.png?raw=true') -10px -10px;
+}
+.bg-marker_spot3 {
+    width: 1402px; height: 1427px;
+    background: url('https://github.com/Ordealist/manga-map/blob/main/marker_spot3.png?raw=true') -10px -10px;
+}
+
+.bg-brongdyu_city_map_road_only {
+    width: 7189px; height: 7008px;
+    background: url('https://github.com/Ordealist/manga-map/blob/main/brongdyu_city_map_road_only.png?raw=true') -10px -10px;
+}
+
+.bg-brongdyu_city_map__with_train_lines {
+    width: 7189px; height: 7008px;
+    background: url('https://github.com/Ordealist/manga-map/blob/main/brongdyu_city_map%20(with%20train%20lines).png?raw=true') -10px -10px;
+}
+
+.bg-airport_metro {
+    width: 2620px; height: 1428px;
+    background: url('https://github.com/Ordealist/manga-map/blob/main/airport_metro.png?raw=true') -10px -10px;
+}
+
+.bg-airport_express {
+    width: 1507px; height: 1427px;
+    background: url('https://github.com/Ordealist/manga-map/blob/main/airport_express.png?raw=true') -10px -10px;
+}
+
+.bg-gwengaadyu_metro {
+    width: 506px; height: 510px;
+    background: url('https://github.com/Ordealist/manga-map/blob/main/gwengaadyu_metro.png?raw=true') -3px -3px;
+}
+
+.bg-brongdyu_metro {
+    width: 514px; height: 516px;
+    background: url('https://github.com/Ordealist/manga-map/blob/main/brongdyu_metro.png?raw=true') -3px -3px;
+}
+
+.bg-singbrongdyu_metro {
+    width: 514px; height: 514px;
+    background: url('https://github.com/Ordealist/manga-map/blob/main/singbrongdyu_metro.png?raw=true') -3px -3px;
+}
+
+.bg-sreensrewskron_PR_intersuburb {
+    width: 1431px; height: 1432px;
+    background: url('https://github.com/Ordealist/manga-map/blob/main/sreensrewskron_PR_intersuburb.png?raw=true') -10px -10px;
+}
+
+.bg-train_symbol {
+    width: 1427px; height: 1427px;
+    background: url('https://github.com/Ordealist/manga-map/blob/main/train_symbol.png?raw=true') -10px -10px;
+}
+
+.bg-tyodyengdyu_LR {
+    width: 507px; height: 507px;
+    background: url('https://github.com/Ordealist/manga-map/blob/main/tyodyengdyu_LR.png?raw=true') -1px -1px;
+}
+
+.bg-new_old_metro {
+    width: 2278px; height: 1116px;
+    background: url('https://github.com/Ordealist/manga-map/blob/main/new_old_metro.png?raw=true') -10px -10px;
+}
+
+.bg-Tyodyengdyu_Brongdyu_Residential_Line {
+    width: 1431px; height: 1539px;
+    background: url('https://github.com/Ordealist/manga-map/blob/main/Tyodyengdyu%20Brongdyu%20Residential%20Line.png?raw=true') -10px -10px;
+}
+
+.bg-metro_and_special {
+    width: 2591px; height: 1542px;
+    background: url('https://github.com/Ordealist/manga-map/blob/main/metro_and_special.png?raw=true') -10px -10px;
+}
+
+.bg-metro_and_special2 {
+    width: 2612px; height: 1432px;
+    background: url('https://github.com/Ordealist/manga-map/blob/main/metro_and_special2.png?raw=true') -10px -10px;
+}
+
+.bg-national_provincial {
+    width: 2897px; height: 1430px;
+    background: url('https://github.com/Ordealist/manga-map/blob/main/national_provincial.png?raw=true') -10px -10px;
+}
+
+.bg-mountain_national {
+    width: 2586px; height: 1428px;
+    background: url('https://github.com/Ordealist/manga-map/blob/main/mountain_national.png?raw=true') -10px -10px;
+}
+
+.bg-Tyodyengdyu_Brongdyu_New_Residential_Line {
+    width: 1430px; height: 1540px;
+    background: url('https://github.com/Ordealist/manga-map/blob/main/Tyodyengdyu%20Brongdyu%20New%20Residential%20Line.png?raw=true') -10px -10px;
+}
+
+.bg-mountain_metro {
+    width: 2278px; height: 1126px;
+    background: url('https://github.com/Ordealist/manga-map/blob/main/mountain_metro.png?raw=true') -10px -10px;
+}
+
+.bg-airport_provincial {
+    width: 2937px; height: 1430px;
+    background: url('https://github.com/Ordealist/manga-map/blob/main/airport_provincial.png?raw=true') -10px -10px;
+}
+
+.bg-provincial_mountain {
+    width: 2586px; height: 1432px;
+    background: url('https://github.com/Ordealist/manga-map/blob/main/provincial_mountain.png?raw=true') -10px -10px;
+}
+
+.bg-special_tyo {
+    width: 2592px; height: 1542px;
+    background: url('https://github.com/Ordealist/manga-map/blob/main/special_tyo.png?raw=true') -10px -10px;
+}
+
+.bg-special_provincial {
+    width: 2902px; height: 1542px;
+    background: url('https://github.com/Ordealist/manga-map/blob/main/special_provincial.png?raw=true') -10px -10px;
+}
+
+.bg-special_lines {
+    width: 2912px; height: 1543px;
+    background: url('https://github.com/Ordealist/manga-map/blob/main/special_lines.png?raw=true') -10px -10px;
+}
+
 .boundary{
 	bottom: -2.5px;
 	left:-40px;
@@ -472,14 +596,26 @@ dt{
 
 #BDU_airport_station {
 	bottom: 2539px;
-	left:-530px;
+	left:-550px;
 
 }
 
+#BDU_airport_station_lbl {
+	bottom: 2547px;
+	left:-579px;
+	display: none;
+}
+
 #BDU_airport_east_sta {
-	bottom: 2795px;
+	bottom: 2800px;
 	left:160px;
 
+}
+
+#BDU_airport_east_sta_lbl{
+	bottom: 2795px;
+	left:50px;
+	display: none;	
 }
 
 #BDU_fluominnastratia_sta {
@@ -488,10 +624,22 @@ dt{
 
 }
 
+#BDU_fluominnastratia_sta_lbl{
+	bottom: 2493px;
+	left:380px;
+	display: none;
+}
+
 #BDU_air_terminal_sta {
 	bottom: 2560px;
 	left:-55px;	
 
+}
+
+#BDU_air_terminal_sta_lbl {
+	bottom: 2560px;
+	left:-55px;	
+	display: none;
 }
 
 #phangwan_district {
@@ -509,10 +657,22 @@ dt{
 	left:-170px;
 }
 
+#phangwan_station_lbl {
+	bottom: 1230px;
+	left:570px;
+	display: none;
+}
+
 #Workers_Dormitory_Town_I_Station {
 	bottom: 1425px;
 	left: 430px;
 
+}
+
+#Workers_Dormitory_Town_I_Station_lbl {
+	bottom: 1445px;
+	left: 450px;
+	display: none;
 }
 
 #Workers_Dormitory_Town_II_Station {
@@ -521,16 +681,34 @@ dt{
 
 }
 
+#Workers_Dormitory_Town_II_Station_lbl {
+	bottom: 1515px;
+	left: 140px;
+	display: none;
+}
+
 #Workers_Dormitory_Town_III_Station {
 	bottom: 1550px;
 	left: -150px;	
 
 }
 
+#Workers_Dormitory_Town_III_Station_lbl {
+	bottom: 1570px;
+	left: -150px;	
+	display: none;
+}
+
 #Mliggrewgraags_station {
 	bottom: 950px;
 	left:920px;
 
+}
+
+#Mliggrewgraags_station_lbl {
+	bottom: 950px;
+	left:920px;
+	display: none;
 }
 
 #Mliggrewgraags_district {
@@ -543,10 +721,22 @@ dt{
 	left: -320px;	
 }
 
+#World_Station_lbl {
+	bottom: 1700px;
+	left: -310px;
+	display: none;		
+}
+
 #Workers_Dormitory_Town_VI_Station {
 	bottom: 1850px;
 	left: -465px;
 
+}
+
+#Workers_Dormitory_Town_VI_Station_lbl {
+	bottom: 1850px;
+	left: -445px;
+	display: none;
 }
 
 #Airport_West_Station_IV {
@@ -555,10 +745,23 @@ dt{
 
 }
 
+#Airport_West_Station_IV_lbl {
+	bottom: 2130px;
+	left: -590px;
+	display: none;
+}
+
+
 #Airport_West_Station_III {
 	bottom: 2430px;
 	left: -620px;
 
+}
+
+#Airport_West_Station_III_lbl {
+	bottom: 2430px;
+	left: -620px;
+	display: none;
 }
 
 #Airport_West_Station_II {
@@ -567,10 +770,22 @@ dt{
 
 }
 
+#Airport_West_Station_II_lbl {
+	bottom: 2730px;
+	left: -620px;
+	display: none;
+}
+
 #Airport_West_Station_I {
 	bottom: 3090px;
 	left: -620px;
 
+}
+
+#Airport_West_Station_I_lbl {
+	bottom: 3090px;
+	left: -620px;
+	display: none;
 }
 
 #Airport_Riverside_Station {
@@ -579,10 +794,22 @@ dt{
 
 }
 
+#Airport_Riverside_Station_lbl {
+	bottom: 3375px;
+	left:-215px;	
+	display: none;
+}
+
 #Airport_North_Station {
 	bottom: 3290px;
 	left:160px;	
 
+}
+
+#Airport_North_Station_lbl {
+	bottom: 3290px;
+	left:160px;	
+	display: none;
 }
 
 #Graasreen_Station {
@@ -591,22 +818,46 @@ dt{
 
 }
 
+#Graasreen_Station_lbl {
+	bottom: 525px;
+	left:926px;
+	display: none;
+}
+
 #Graanghvuu_Station {
 	bottom: 185px;
 	left:1111px;
 
 }
 
+#Graanghvuu_Station_lbl {
+	bottom: 205px;
+	left:1141px;
+	display: none;
+}
+
 #Tyudyenghvosgun_Station {
 	bottom: 3675px;
-	left:195px;
+	left:165px;
 
 }
 
-#Tyodyengdyu_Station {
-	bottom: 3960px;
-	left:275px;
+#Tyudyenghvosgun_Station_lbl {
+	bottom: 3695px;
+	left:175px;
+	display: none;
+}
 
+#Tyodyengdyu_Station {
+	bottom: 3970px;
+	left:250px;
+
+}
+
+#Tyodyengdyu_Station_lbl {
+	bottom: 3990px;
+	left:260px;
+	display: none;
 }
 
 #Tyodyengdyu_Station_south {
@@ -615,10 +866,22 @@ dt{
 
 }
 
+#Tyodyengdyu_Station_south_lbl {
+	bottom: 3830px;
+	left:490px;
+	display: none;
+}
+
 #Tyodyengdyu_Station_north {
 	bottom: 4270px;
 	left:376px;
 
+}
+
+#Tyodyengdyu_Station_north_lbl {
+	bottom: 4270px;
+	left:376px;
+	display: none;
 }
 
 #West_Mudsmengsreen_Station {
@@ -627,16 +890,34 @@ dt{
 
 }
 
+#West_Mudsmengsreen_Station_lbl {
+	bottom: 3660px;
+	left:845px;
+	display: none;
+}
+
 #Suudshvre_Station  {
-	bottom: 3610px;
+	bottom: 3650px;
 	left:565px;
 
 }
 
+#Suudshvre_Station_lbl  {
+	bottom: 3730px;
+	left:570px;
+	display: none;
+}
+
 #Victory_square {
-	bottom: 4488px;
+	bottom: 4499px;
 	left:743px;
 
+}
+
+#Victory_square_lbl {
+	bottom: 4068px;
+	left:310px;
+	display: none;
 }
 
 #West_gatebrg_sta{
@@ -645,10 +926,22 @@ dt{
 
 }
 
+#West_gatebrg_sta_lbl{
+	bottom: 4008px;
+	left:380px;	
+	display: none;
+}
+
 #Daankhraang_Station {
 	bottom: 4365px;
 	left:883px;	
 
+}
+
+#Daankhraang_Station_lbl {
+	bottom: 3938px;
+	left:430px;	
+	display: none;
 }
 
 #South_gatebrg_sta {
@@ -657,10 +950,22 @@ dt{
 
 }
 
+#South_gatebrg_sta_lbl {
+	bottom: 3958px;
+	left:540px;	
+	display: none;
+}
+
 #East_gatebrg_sta {
 	bottom: 4495px;
 	left:1065px;
 
+}
+
+#East_gatebrg_sta_lbl {
+	bottom: 4058px;
+	left:605px;
+	display: none;
 }
 
 #Mudsmensreen_Road_sta {
@@ -669,10 +974,24 @@ dt{
 
 }
 
+#Mudsmensreen_Road_sta_lbl {
+	bottom: 4188px;
+	left:665px;	
+	z-index: 2;
+	display: none;
+}
+
 #Lalyins_Station {
 	bottom: 4682px;
 	left:975px;	
 
+}
+
+#Lalyins_Station_lbl {
+	bottom: 4250px;
+	left:520px;	
+	z-index: 2;
+	display: none;
 }
 
 #North_gatebrg_sta {
@@ -681,10 +1000,23 @@ dt{
 
 }
 
+#North_gatebrg_sta_lbl {
+	bottom: 4220px;
+	left:395px;	
+	z-index: 2;
+	display: none;
+}
+
 #Kaankaan_Station {
 	bottom: 4580px;
 	left:790px;		
 
+}
+
+#Kaankaan_Station_lbl {
+	bottom: 4142px;
+	left:330px;		
+	display: none;
 }
 
 #west_tyodyeng {
@@ -693,10 +1025,22 @@ dt{
 
 }
 
+#west_tyodyeng_lbl {
+	bottom: 4040px;
+	left:155px;
+	display: none;
+}
+
 #Mrangreels_sta {
 	bottom: 4310px;
 	left:773px;
 
+}
+
+#Mrangreels_sta_lbl {
+	bottom: 3875px;
+	left:335px;
+	display: none;
 }
 
 #bibraadyo_sta {
@@ -705,10 +1049,22 @@ dt{
 
 }
 
+#bibraadyo_sta_lbl {
+	bottom: 3863px;
+	left:577px;
+	display: none;
+}
+
 #gwengbaan_sta {
 	bottom: 4465px;
 	left:1150px;
 
+}
+
+#gwengbaan_sta_lbl {
+	bottom: 4030px;
+	left:690px;
+	display: none;
 }
 
 #outer_ring_sta{
@@ -717,10 +1073,22 @@ dt{
 
 }
 
+#outer_ring_sta_lbl{
+	bottom: 4190px;
+	left:770px;
+	display: none;
+}
+
 #Kheekhuum_sta {
 	bottom: 4755px;
 	left:1150px;
 
+}
+
+#Kheekhuum_sta_lbl {
+	bottom: 4325px;
+	left:710px;
+	display: none;
 }
 
 #Grumsgwen_sta {
@@ -729,10 +1097,22 @@ dt{
 
 }
 
+#Grumsgwen_sta_lbl {
+	bottom: 4383px;
+	left:-270px;
+	display: none;
+}
+
 #ring_intersection_sta {
 	bottom: 4767px;
 	left:772px;
 
+}
+
+#ring_intersection_sta_lbl {
+	bottom: 4347px;
+	left:320px;
+	display: none;
 }
 
 #Hvruusgaam_sta {
@@ -741,10 +1121,22 @@ dt{
 
 }
 
+#Hvruusgaam_sta_lbl {
+	bottom: 4197px;
+	left:220px;
+	display: none;
+}
+
 #Hvuushuw_sta {
 	bottom: 4369px;
 	left:453px;
 
+}
+
+#Hvuushuw_sta_lbl {
+	bottom: 3930px;
+	left:-9px;
+	display: none;
 }
 
 #tyosreen_sta {
@@ -753,10 +1145,22 @@ dt{
 
 }
 
+#tyosreen_sta_lbl {
+	bottom: 3840px;
+	left:-98px;
+	display: none;
+}
+
 #Qhwyiilmluug_Station {
 	bottom: 4928px;
 	left:603px;
 
+}
+
+#Qhwyiilmluug_Station_lbl {
+	bottom: 4490px;
+	left:163px;
+	display: none;
 }
 
 #tuunmog_sta {
@@ -765,10 +1169,22 @@ dt{
 
 }
 
+#tuunmog_sta_lbl {
+	bottom: 4670px;
+	left:13px;
+	display: none;
+}
+
 #Kaasreewssqhra_Station {
 	bottom: 4287px;
 	left:509px;	
 
+}
+
+#Kaasreewssqhra_Station_lbl {
+	bottom: 4307px;
+	left:509px;	
+	display: none;
 }
 
 #Ruudyo_Station {
@@ -777,10 +1193,22 @@ dt{
 
 }
 
+#Ruudyo_Station_lbl {
+	bottom: 4270px;
+	left:659px;	
+	display: none;
+}
+
 #Tyodyengdyu_Station_west {
 	bottom: 4100px;
 	left:-570px;
 
+}
+
+#Tyodyengdyu_Station_west_lbl {
+	bottom: 4135px;
+	left:-570px;
+	display: none;
 }
 
 #Zlanbooqlool_Station{
@@ -789,10 +1217,22 @@ dt{
 
 }
 
+#Zlanbooqlool_Station_lbl{
+	bottom: 3530px;
+	left:660px;
+	display: none;
+}
+
 #Kwraangliing_Station{
 	bottom: 3325px;
 	left:735px;
 
+}
+
+#Kwraangliing_Station_lbl{
+	bottom: 3395px;
+	left:745px;
+	display: none;
 }
 
 #Tyodyeng_rd_Station{
@@ -801,10 +1241,22 @@ dt{
 
 }
 
+#Tyodyeng_rd_Station_lbl{
+	bottom: 3230px;
+	left:890px;
+	display: none;
+}
+
 #Mroonshvreens_Station {
 	bottom: 3180px;
 	left:1078px;
 
+}
+
+#Mroonshvreens_Station_lbl {
+	bottom: 3255px;
+	left:1078px;
+	display: none;
 }
 
 #Zaangzraads_Station{
@@ -813,22 +1265,46 @@ dt{
 
 }
 
+#Zaangzraads_Station_lbl{
+	bottom: 3225px;
+	left:1282px;
+	display: none;
+}
+
 #Braagsmewbroog_Station{
 	bottom: 3140px;
 	left:1500px;
 
 }
 
+#Braagsmewbroog_Station_lbl{
+	bottom: 3220px;
+	left:1500px;
+	display: none;
+}
+
 #Sreennuum_Station{
-	bottom: 3170px;
+	bottom: 3180px;
 	left:1160px;
 
 }
 
+#Sreennuum_Station_lbl{
+	bottom: 3220px;
+	left:1000px;
+	display: none;
+}
+
 #Sreennuumtoong_Station{
-	bottom: 3240px;
+	bottom: 3250px;
 	left:1295px;
 
+}
+
+#Sreennuumtoong_Station_lbl{
+	bottom: 3290px;
+	left:1105px;
+	display: none;
 }
 
 #foth_ring_Station{
@@ -837,10 +1313,22 @@ dt{
 
 }
 
+#foth_ring_Station_lbl{
+	bottom: 3320px;
+	left:1315px;
+	display: none;
+}
+
 #Gwengrulnuum_Station{
 	bottom: 3275px;
 	left:2245px;
 
+}
+
+#Gwengrulnuum_Station_lbl{
+	bottom: 3335px;
+	left:2260px;
+	display: none;
 }
 
 #Gwengrulnuum_2{
@@ -849,10 +1337,22 @@ dt{
 
 }
 
+#Gwengrulnuum_2_lbl{
+	bottom: 3335px;
+	left:2310px;
+	display: none;
+}
+
 #South_Mudsmengsreen_Station {
 	bottom: 3490px;
 	left:1265px;
 
+}
+
+#South_Mudsmengsreen_Station_lbl {
+	bottom: 3520px;
+	left:1265px;
+	display: none;
 }
 
 #Muggunbong_station {
@@ -861,10 +1361,22 @@ dt{
 
 }
 
+#Muggunbong_station_lbl {
+	bottom: 4547px;
+	left:-270px;
+	display: none;
+}
+
 #Qhwiiggraags_Station {
 	bottom: 3530px;
 	left:1970px;
 
+}
+
+#Qhwiiggraags_Station_lbl {
+	bottom: 3565px;
+	left:1975px;
+	display: none;
 }
 
 #Victory_prk_Station {
@@ -873,10 +1385,23 @@ dt{
 
 }
 
+#Victory_prk_Station_lbl {
+	bottom: 3485px;
+	left:2300px;
+	display: none;
+}
+
 #dyagthuub_Station {
 	bottom: 3340px;
 	left:2495px;	
 
+}
+
+#dyagthuub_Station_lbl {
+	bottom: 3375px;
+	left:2495px;	
+	z-index: 2;
+	display: none;
 }
 
 #grandJunct_Station {
@@ -885,10 +1410,23 @@ dt{
 
 }
 
+#grandJunct_Station_lbl {
+	bottom: 3235px;
+	left:2680px;
+	z-index: 2;
+	display: none;
+}
+
 #libertySquare_Station {
 	bottom: 3130px;
 	left:2815px;
 
+}
+
+#libertySquare_Station_lbl {
+	bottom: 3165px;
+	left:2815px;
+	display: none;
 }
 
 #Sniper_hill{
@@ -897,10 +1435,22 @@ dt{
 
 }
 
+#Sniper_hill_lbl{
+	bottom: 3450px;
+	left:2005px;	
+	display: none;
+}
+
 #Mudsmensreen_Rd_Sta{
 	bottom: 4140px;
 	left:2465px;	
 
+}
+
+#Mudsmensreen_Rd_Sta_lbl{
+	bottom: 3720px;
+	left:2015px;	
+	display: none;
 }
 
 #Shleenggu_Sta{
@@ -909,10 +1459,23 @@ dt{
 
 }
 
+#Shleenggu_Sta_lbl{
+	bottom: 4075px;
+	left:3050px;
+	display: none;
+}
+
 #UniPark_Sta{
 	bottom: 4605px;
 	left:3080px;
 
+}
+
+#UniPark_Sta_lbl{
+	bottom: 4180px;
+	left:2630px;
+	z-index: 2;
+	display: none;
 }
 
 #Dyangruum_Sta{
@@ -921,10 +1484,22 @@ dt{
 
 }
 
+#Dyangruum_Sta_lbl{
+	bottom: 4145px;
+	left:2500px;
+	display: none;
+}
+
 #Gwraqlool_sta{
 	bottom: 4360px;
 	left:2680px;
 
+}
+
+#Gwraqlool_sta_lbl{
+	bottom: 3945px;
+	left:2230px;
+	display: none;
 }
 
 #Buulqhunshrag_sta{
@@ -933,10 +1508,22 @@ dt{
 
 }
 
+#Buulqhunshrag_sta_lbl{
+	bottom: 3150px;
+	left:2325px;
+	display: none;
+}
+
 #Toongserlaag_sta{
 	bottom: 3480px;
 	left:3005px;
 
+}
+
+#Toongserlaag_sta_lbl{
+	bottom: 3055px;
+	left:2550px;
+	display: none;
 }
 
 #old_mansion{
@@ -945,10 +1532,22 @@ dt{
 
 }
 
+#old_mansion_lbl{
+	bottom: 3025px;
+	left:2645px;
+	display: none;
+}
+
 #foth_ring_2{
 	bottom: 3720px;
 	left:1520px;
 
+}
+
+#foth_ring_2_lbl{
+	bottom: 3790px;
+	left:1330px;
+	display: none;
 }
 
 #west_uniPark{
@@ -957,10 +1556,22 @@ dt{
 
 }
 
+#west_uniPark_lbl{
+	bottom: 4055px;
+	left:1615px;
+	display: none;
+}
+
 #daadsngodyag_sta{
 	bottom: 4115px;
 	left:2860px;
 
+}
+
+#daadsngodyag_sta_lbl{
+	bottom: 4160px;
+	left:2860px;
+	display: none;
 }
 
 #Tyodyengpuug_sta{
@@ -969,10 +1580,22 @@ dt{
 
 }
 
+#Tyodyengpuug_sta_lbl{
+	bottom: 4950px;
+	left:350px;
+	display: none;
+}
+
 #Kruungskroong_sta{
 	bottom: 5030px;
 	left:650px;
 
+}
+
+#Kruungskroong_sta_lbl{
+	bottom: 5115px;
+	left:650px;
+	display: none;
 }
 
 #River_peninsula{
@@ -981,10 +1604,23 @@ dt{
 
 }
 
+#River_peninsula_lbl{
+	bottom: 5145px;
+	left:777px;
+	display: none;
+}
+
+
 #lebskheem_south_sta{
 	bottom: 4650px;
 	left:1625px;
 
+}
+
+#lebskheem_south_sta_lbl{
+	bottom: 4730px;
+	left:1625px;
+	display: none;
 }
 
 #Segaa_sta{
@@ -993,10 +1629,22 @@ dt{
 
 }
 
+#Segaa_sta_lbl{
+	bottom: 4460px;
+	left:2025px;
+	display: none;
+}
+
 #mudsmengsreen_east_sta{
 	bottom: 3975px;
 	left:2115px;
 
+}
+
+#mudsmengsreen_east_sta_lbl{
+	bottom: 4040px;
+	left:2115px;
+	display: none;
 }
 
 #south_uniPark_sta{
@@ -1005,10 +1653,22 @@ dt{
 
 }
 
+#south_uniPark_sta_lbl{
+	bottom: 3920px;
+	left:2475px;
+	display: none;
+}
+
 #Musmengsreen_rd_3{
 	bottom: 3560px;
 	left:2180px;
 
+}
+
+#Musmengsreen_rd_3_lbl{
+	bottom: 3640px;
+	left:2180px;
+	display: none;
 }
 
 #Brongluudskoon_sta{
@@ -1017,10 +1677,22 @@ dt{
 
 }
 
+#Brongluudskoon_sta_lbl{
+	bottom: 3570px;
+	left:2660px;
+	display: none;
+}
+
 #old_market_sta{
 	bottom: 3390px;
 	left:2600px;
 
+}
+
+#old_market_sta_lbl{
+	bottom: 3455px;
+	left:2600px;
+	display: none;
 }
 
 #old_town_sta{
@@ -1029,10 +1701,22 @@ dt{
 
 }
 
+#old_town_sta_lbl{
+	bottom: 3410px;
+	left:1700px;
+	display: none;
+}
+
 #cityGate_sta{
 	bottom: 3220px;
 	left:1925px;	
 
+}
+
+#cityGate_sta_lbl{
+	bottom: 3260px;
+	left:1925px;	
+	display: none;
 }
 
 #Nguulbaans_sta{
@@ -1041,10 +1725,22 @@ dt{
 
 }
 
+#Nguulbaans_sta_lbl{
+	bottom: 3085px;
+	left:3325px;
+	display: none;
+}
+
 #Nguulgrumshuun_sta{
 	bottom: 3570px;
 	left:3700px;
 
+}
+
+#Nguulgrumshuun_sta_lbl{
+	bottom: 3150px;
+	left:3250px;
+	display: none;
 }
 
 #Dyaggralzod_sta{
@@ -1053,10 +1749,22 @@ dt{
 
 }
 
+#Dyaggralzod_sta_lbl{
+	bottom: 3210px;
+	left:3185px;
+	display: none;
+}
+
 #Graaghlyonsha_sta{
 	bottom: 3715px;
 	left:3540px;
 
+}
+
+#Graaghlyonsha_sta_lbl{
+	bottom: 3295px;
+	left:3100px;
+	display: none;
 }
 
 #Rangsreen_rd_sta{
@@ -1065,10 +1773,22 @@ dt{
 
 }
 
+#Rangsreen_rd_sta_lbl{
+	bottom: 3375px;
+	left:2920px;
+	display: none;
+}
+
 #Brongluudskoon_sta_2{
 	bottom: 3755px;
 	left:3265px;
 
+}
+
+#Brongluudskoon_sta_2_lbl{
+	bottom: 3335px;
+	left:2815px;
+	display: none;
 }
 
 #Tuudsmruukhee_sta{
@@ -1077,10 +1797,22 @@ dt{
 
 }
 
+#Tuudsmruukhee_sta_lbl{
+	bottom: 3155px;
+	left:2615px;
+	display: none;
+}
+
 #Serlaag_sta{
 	bottom: 3370px;
 	left:2925px;
 
+}
+
+#Serlaag_sta_lbl{
+	bottom: 2947px;
+	left:2490px;
+	display: none;
 }
 
 #Qhlyilliing_sta{
@@ -1089,10 +1821,22 @@ dt{
 
 }
 
+#Qhlyilliing_sta_lbl{
+	bottom: 3065px;
+	left:2290px;
+	display: none;
+}
+
 #sta10_sta{
 	bottom: 3200px;
 	left:2860px;
 
+}
+
+#sta10_sta_lbl{
+	bottom: 2775px;
+	left:2405px;
+	display: none;
 }
 
 #actual_sta10{
@@ -1101,10 +1845,22 @@ dt{
 
 }
 
+#actual_sta10_lbl{
+	bottom: 2865px;
+	left:2405px;
+	display: none;
+}
+
 #neuSta2_sta{
 	bottom: 3200px;
 	left:2952px;
 
+}
+
+#neuSta2_sta_lbl{
+	bottom: 2775px;
+	left:2500px;
+	display: none;
 }
 
 #neuSta3_sta{
@@ -1113,10 +1869,22 @@ dt{
 
 }
 
+#neuSta3_sta_lbl{
+	bottom: 2830px;
+	left:2585px;
+	display: none;
+}
+
 #neuSta5_sta{
 	bottom: 3170px;
 	left:3080px;
 
+}
+
+#neuSta5_sta_lbl{
+	bottom: 2745px;
+	left:2635px;
+	display: none;
 }
 
 #neuSta6_sta{
@@ -1125,10 +1893,22 @@ dt{
 
 }
 
+#neuSta6_sta_lbl{
+	bottom: 2665px;
+	left:2690px;
+	display: none;
+}
+
 #weirview_sta{
 	bottom: 3030px;
 	left:3400px;
 
+}
+
+#weirview_sta_lbl{
+	bottom: 2605px;
+	left:2965px;
+	display: none;
 }
 
 #RangsreenRd_sta{
@@ -1137,10 +1917,22 @@ dt{
 
 }
 
+#RangsreenRd_sta_lbl{
+	bottom: 3120px;
+	left:2760px;
+	display: none;
+}
+
 #Brongluudskoon2_sta{
 	bottom: 3630px;
 	left:3325px;
 
+}
+
+#Brongluudskoon2_sta_lbl{
+	bottom: 3210px;
+	left:2875px;
+	display: none;
 }
 
 #Kwrudyeng_sta{
@@ -1149,10 +1941,22 @@ dt{
 
 }
 
+#Kwrudyeng_sta_lbl{
+	bottom: 3170px;
+	left:3060px;
+	display: none;
+}
+
 #Gwungdyeng_sta{
 	bottom: 3495px;
 	left:3620px;
 
+}
+
+#Gwungdyeng_sta_lbl{
+	bottom: 3075px;
+	left:3170px;
+	display: none;
 }
 
 #Mogkloongkoon_sta{
@@ -1161,10 +1965,22 @@ dt{
 
 }
 
+#Mogkloongkoon_sta_lbl{
+	bottom: 3000px;
+	left:3190px;
+	display: none;
+}
+
 #Rduungqrang_sta{
 	bottom: 3300px;
 	left:3540px;
 
+}
+
+#Rduungqrang_sta_lbl{
+	bottom: 2870px;
+	left:3090px;
+	display: none;
 }
 
 #Krumbrongdyengzleen_sta{
@@ -1173,10 +1989,24 @@ dt{
 
 }
 
+#Krumbrongdyengzleen_sta_lbl{
+	bottom: 2845px;
+	left:3010px;
+	z-index: 2;
+	display: none;
+}
+
 #GoldDrg_sta{
 	bottom: 3245px;
 	left:3390px;
 
+}
+
+#GoldDrg_sta_lbl{
+	bottom: 2820px;
+	left:2940px;
+	z-index: 2;
+	display: none;
 }
 
 #PalaceWest_sta{
@@ -1185,10 +2015,23 @@ dt{
 
 }
 
+#PalaceWest_sta_lbl{
+	bottom: 2860px;
+	left:2770px;
+	z-index: 2;
+	display: none;
+}
+
 #BrongluudskoonII{
 	bottom: 3325px;
 	left:3160px;
 
+}
+
+#BrongluudskoonII_lbl{
+	bottom: 2900px;
+	left:2700px;
+	display: none;
 }
 
 #Kruughvung_sta{
@@ -1197,10 +2040,22 @@ dt{
 
 }
 
+#Kruughvung_sta_lbl{
+	bottom: 2930px;
+	left:2640px;
+	display: none;
+}
+
 #foreignDistrict_sta{
 	bottom: 3540px;
 	left:3490px;
 
+}
+
+#foreignDistrict_sta_lbl{
+	bottom: 3100px;
+	left:3040px;
+	display: none;
 }
 
 #foreignDistrictSouth_sta{
@@ -1209,10 +2064,22 @@ dt{
 
 }
 
+#foreignDistrictSouth_sta_lbl{
+	bottom: 3045px;
+	left:3050px;
+	display: none;
+}
+
 #Hlinbrong_sta{
 	bottom: 3400px;
 	left:3530px;
 
+}
+
+#Hlinbrong_sta_lbl{
+	bottom: 2975px;
+	left:3090px;
+	display: none;
 }
 
 #Khyonqrenshvuug_sta{
@@ -1221,10 +2088,22 @@ dt{
 
 }
 
+#Khyonqrenshvuug_sta_lbl{
+	bottom: 2930px;
+	left:3030px;
+	display: none;
+}
+
 #royalGardens_sta{
 	bottom: 3310px;
 	left:3390px;	
 
+}
+
+#royalGardens_sta_lbl{
+	bottom: 2885px;
+	left:2940px;	
+	display: none;
 }
 
 #greenDragon_sta{
@@ -1233,10 +2112,23 @@ dt{
 
 }
 
+#greenDragon_sta_lbl{
+	bottom: 2910px;
+	left:2790px;
+	z-index: 2;
+	display: none;
+}
+
 #guildDist_sta{
 	bottom: 3485px;
 	left:3235px;	
 
+}
+
+#guildDist_sta_lbl{
+	bottom: 3065px;
+	left:2778px;	
+	display: none;
 }
 
 #sta11_sta{
@@ -1245,10 +2137,22 @@ dt{
 
 }
 
+#sta11_sta_lbl{
+	bottom: 2755px;
+	left:2725px;
+	display: none;
+}
+
 #Hmluudaan_sta{
 	bottom: 3410px;
 	left:3255px;
 
+}
+
+#Hmluudaan_sta_lbl{
+	bottom: 2985px;
+	left:2820px;
+	display: none;
 }
 
 #Brongluudskoon4_sta{
@@ -1257,10 +2161,23 @@ dt{
 
 }
 
+#Brongluudskoon4_sta_lbl{
+	bottom: 3085px;
+	left:2870px;
+	display: none;
+}
+
 #RangsreenRd2_sta{
 	bottom: 3915px;
 	left:3315px;
 
+}
+
+#RangsreenRd2_sta_lbl{
+	bottom: 3490px;
+	left:2870px;
+	z-index: 2;
+	display: none;
 }
 
 #Qhwlyilskengthuub_sta{
@@ -1269,16 +2186,35 @@ dt{
 
 }
 
+#Qhwlyilskengthuub_sta_lbl{
+	bottom: 3630px;
+	left:2790px;
+	display: none;
+}
+
 #Nangdongs_sta{
 	bottom: 4230px;
 	left:3190px;
 
 }
 
+#Nangdongs_sta_lbl{
+	bottom: 3805px;
+	left:2750px;
+	display: none;
+}
+
+
 #southUniPark_sta{
 	bottom: 4400px;
 	left:3130px;
 
+}
+
+#southUniPark_sta_lbl{
+	bottom: 3970px;
+	left:2680px;
+	display: none;
 }
 
 #Sekhuuds_sta{
@@ -1287,17 +2223,34 @@ dt{
 
 }
 
+#Sekhuuds_sta_lbl{
+	bottom: 4260px;
+	left:2590px;
+	display: none;
+}
+
 #Hvuugserlaag_sta{
 	bottom: 3620px;
 	left:2900px;
 
 }
 
+#Hvuugserlaag_sta_lbl{
+	bottom: 3200px;
+	left:2440px;
+	display: none;
+}
 
 #Hvangzruraag_sta{
 	bottom: 3700px;
 	left:2825px;
 
+}
+
+#Hvangzruraag_sta_lbl{
+	bottom: 3280px;
+	left:2380px;
+	display: none;
 }
 
 #Brongtyolyus_sta{
@@ -1306,10 +2259,22 @@ dt{
 
 }
 
+#Brongtyolyus_sta_lbl{
+	bottom: 3600px;
+	left:2370px;
+	display: none;
+}
+
 #Brongtyolyuspuug_sta{
 	bottom: 4140px;
 	left:2880px;
 
+}
+
+#Brongtyolyuspuug_sta_lbl{
+	bottom: 3710px;
+	left:2430px;
+	display: none;
 }
 
 #RS_sta{
@@ -1318,10 +2283,22 @@ dt{
 
 }
 
+#RS_sta_lbl{
+	bottom: 3720px;
+	left:2860px;
+	display: none;
+}
+
 #Hvulbrong_sta{
 	bottom: 4000px;
 	left:3340px;
 
+}
+
+#Hvulbrong_sta_lbl{
+	bottom: 3590px;
+	left:2895px;
+	display: none;
 }
 
 #Sglonggrumhvuug_sta{
@@ -1330,10 +2307,22 @@ dt{
 
 }
 
+#Sglonggrumhvuug_sta_lbl{
+	bottom: 3460px;
+	left:3140px;
+	display: none;
+}
+
 #Sglonggrum_sta{
 	bottom: 3780px;
 	left:3650px;
 
+}
+
+#Sglonggrum_sta_lbl{
+	bottom: 3350px;
+	left:3200px;
+	display: none;
 }
 
 #Dyagmaags_sta{
@@ -1342,10 +2331,22 @@ dt{
 
 }
 
+#Dyagmaags_sta_lbl{
+	bottom: 3783px;
+	left:1840px;
+	display: none;
+}
+
 #brongdyu_station_east{
 	bottom: 2915px;
 	left:3130px;
 
+}
+
+#brongdyu_station_east_lbl{
+	bottom: 2915px;
+	left:3130px;
+	display: none;
 }
 
 #brongdyu_station_south{
@@ -1354,10 +2355,22 @@ dt{
 
 }
 
+#brongdyu_station_south_lbl{
+	bottom: 2815px;
+	left:2830px;
+	display: none;
+}
+
 #Revolutionary_martyrs_sta{
 	bottom: 3200px;
 	left:2950px;
 
+}
+
+#Revolutionary_martyrs_sta_lbl{
+	bottom: 3200px;
+	left:2950px;
+	display: none;
 }
 
 #BraveBattle_Station{
@@ -1366,10 +2379,22 @@ dt{
 
 }
 
+#BraveBattle_Station_lbl{
+	bottom: 3340px;
+	left:2990px;
+	display: none;
+}
+
 #BaaggaalGaadong_Station{
 	bottom: 3460px;
 	left:2990px;
 
+}
+
+#BaaggaalGaadong_Station_lbl{
+	bottom: 3460px;
+	left:2990px;
+	display: none;
 }
 
 #brongdyu_station_southDeNuum{
@@ -1378,10 +2403,22 @@ dt{
 
 }
 
+#brongdyu_station_southDeNuum_lbl{
+	bottom: 2630px;
+	left:2790px;
+	display: none;
+}
+
 #sta8 {
 	bottom: 2790px;
 	left:1370px;
 
+}
+
+#sta8_lbl {
+	bottom: 2810px;
+	left:1205px;
+	display: none;
 }
 
 #staA7{
@@ -1390,10 +2427,22 @@ dt{
 
 }
 
+#staA7_lbl{
+	bottom: 2575px;
+	left:1220px;
+	display: none;
+}
+
 #B_sta{
 	bottom: 2970px;
 	left:2290px;
 
+}
+
+#B_sta_lbl{
+	bottom: 2545px;
+	left:1835px;
+	display: none;
 }
 
 #C_sta{
@@ -1402,10 +2451,22 @@ dt{
 
 }
 
+#C_sta_lbl{
+	bottom: 2365px;
+	left:1900px;
+	display: none;
+}
+
 #D_sta{
 	bottom: 2650px;
 	left:2450px;		
 
+}
+
+#D_sta_lbl{
+	bottom: 2225px;
+	left:2000px;		
+	display: none;
 }
 
 #E_sta{
@@ -1414,10 +2475,22 @@ dt{
 
 }
 
+#E_sta_lbl{
+	bottom: 2190px;
+	left:2200px;		
+	display: none;
+}
+
 #F_sta{
 	bottom: 2570px;
 	left:2790px;		
 
+}
+
+#F_sta_lbl{
+	bottom: 2145px;
+	left:2343px;		
+	display: none;
 }
 
 #G_sta{
@@ -1426,10 +2499,22 @@ dt{
 
 }
 
+#G_sta_lbl{
+	bottom: 2080px;
+	left:2485px;		
+	display: none;
+}
+
 #H_sta{
 	bottom: 2535px;
 	left:3090px;	
 
+}
+
+#H_sta_lbl{
+	bottom: 2110px;
+	left:2645px;	
+	display: none;
 }
 
 #sta2{
@@ -1438,10 +2523,23 @@ dt{
 
 }
 
+#sta2_lbl{
+	bottom: 2585px;
+	left:2695px;
+	z-index: 2;
+	display: none;
+}
+
 #sta3{
 	bottom: 2920px;
 	left:3010px;
 
+}
+
+#sta3_lbl{
+	bottom: 2495px;
+	left:2560px;
+	display: none;
 }
 
 #Nuumsreenpuug_sta{
@@ -1450,10 +2548,22 @@ dt{
 
 }
 
+#Nuumsreenpuug_sta_lbl{
+	bottom: 2290px;
+	left:2480px;
+	display: none;
+}
+
 #NewEra_sta{
 	bottom: 2720px;
 	left:2790px;
 
+}
+
+#NewEra_sta_lbl{
+	bottom: 2290px;
+	left:2355px;
+	display: none;
 }
 
 #sta6{
@@ -1462,10 +2572,22 @@ dt{
 
 }
 
+#sta6_lbl{
+	bottom: 2390px;
+	left:2110px;
+	display: none;
+}
+
 #sta9{
 	bottom: 3300px;
 	left:2650px;
 
+}
+
+#sta9_lbl{
+	bottom: 2878px;
+	left:2200px;
+	display: none;
 }
 
 #sta12{
@@ -1474,10 +2596,22 @@ dt{
 
 }
 
+#sta12_lbl{
+	bottom: 2920px;
+	left:1840px;
+	display: none;
+}
+
 #sta13{
 	bottom: 3350px;
 	left:1910px;
 
+}
+
+#sta13_lbl{
+	bottom: 2935px;
+	left:1460px;
+	display: none;
 }
 
 #sta14{
@@ -1486,10 +2620,22 @@ dt{
 
 }
 
+#sta14_lbl{
+	bottom: 2980px;
+	left:1180px;
+	display: none;
+}
+
 #Thyakkwen_sta{
 	bottom: 2040px;
 	left:2370px;	
 
+}
+
+#Thyakkwen_sta_lbl{
+	bottom: 2070px;
+	left:2370px;	
+	display: none;
 }
 
 #Rewlyushvuug_sta{
@@ -1498,10 +2644,22 @@ dt{
 
 }
 
+#Rewlyushvuug_sta_lbl{
+	bottom: 2540px;
+	left:2850px;
+	display: none;
+}
+
 #Rewlyussuul_sta{
 	bottom: 2860px;
 	left:3250px;
 
+}
+
+#Rewlyussuul_sta_lbl{
+	bottom: 2430px;
+	left:2800px;
+	display: none;
 }
 
 #fourthRing_sta{
@@ -1510,10 +2668,22 @@ dt{
 
 }
 
+#fourthRing_sta_lbl{
+	bottom: 2350px;
+	left:2670px;
+	display: none;
+}
+
 #templeNorth_sta{
 	bottom: 2640px;
 	left:3030px;
 
+}
+
+#templeNorth_sta_lbl{
+	bottom: 2220px;
+	left:2590px;
+	display: none;
 }
 
 #Rewlyus_sta{
@@ -1522,10 +2692,22 @@ dt{
 
 }
 
+#Rewlyus_sta_lbl{
+	bottom: 2420px;
+	left:2905px;
+	display: none;
+}
+
 #Rudbrong_sta{
 	bottom: 2780px;
 	left:3460px;
 
+}
+
+#Rudbrong_sta_lbl{
+	bottom: 2360px;
+	left:3020px;
+	display: none;
 }
 
 #Rudbrongtoong_sta{
@@ -1534,10 +2716,22 @@ dt{
 
 }
 
+#Rudbrongtoong_sta_lbl{
+	bottom: 2400px;
+	left:3250px;
+	display: none;
+}
+
 #Nuumsreen_sta{
 	bottom: 2805px;
 	left:3890px;
 
+}
+
+#Nuumsreen_sta_lbl{
+	bottom: 2385px;
+	left:3450px;
+	display: none;
 }
 
 #Nuumsreentoong_sta{
@@ -1546,10 +2740,22 @@ dt{
 
 }
 
+#Nuumsreentoong_sta_lbl{
+	bottom: 2360px;
+	left:3640px;
+	display: none;
+}
+
 #Sreenhvlum_sta{
 	bottom: 2789px;
 	left:4240px;
 
+}
+
+#Sreenhvlum_sta_lbl{
+	bottom: 2369px;
+	left:3800px;
+	display: none;
 }
 
 #Toongnuumsreenkhoo_sta{
@@ -1558,10 +2764,22 @@ dt{
 
 }
 
+#Toongnuumsreenkhoo_sta_lbl{
+	bottom: 2410px;
+	left:3980px;
+	display: none;
+}
+
 #Brongdyutoong_sta{
 	bottom: 3123px;
 	left:2980px;
 
+}
+
+#Brongdyutoong_sta_lbl{
+	bottom: 3003px;
+	left:2630px;
+	display: none;
 }
 
 #Brongdyupuug_sta{
@@ -1570,10 +2788,22 @@ dt{
 
 }
 
+#Brongdyupuug_sta_lbl{
+	bottom: 4070px;
+	left:2575px;
+	display: none;
+}
+
 #GoldDrgPwest_sta{
 	bottom: 2701px;
 	left:2605px;
 
+}
+
+#GoldDrgPwest_sta_lbl{
+	bottom: 2730px;
+	left:3195px;
+	display: none;
 }
 
 #weirviewSouth_sta{
@@ -1582,10 +2812,22 @@ dt{
 
 }
 
+#weirviewSouth_sta_lbl{
+	bottom: 2550px;
+	left:3260px;
+	display: none;
+}
+
 #Brondyu_Station_north{
 	bottom: 3045px;
 	left:2930px;
 
+}
+
+#Brondyu_Station_north_lbl{
+	bottom: 3070px;
+	left:2934px;
+	display: none;
 }
 
 #weirView_sta{
@@ -1594,10 +2836,22 @@ dt{
 
 }
 
+#weirView_sta_lbl{
+	bottom: 2605px;
+	left:3120px;
+	display: none;
+}
+
 #Goonghvre_sta{
 	bottom: 3085px;
 	left:4000px;
 
+}
+
+#Goonghvre_sta_lbl{
+	bottom: 2660px;
+	left:3540px;
+	display: none;
 }
 
 #Mangram_sta{
@@ -1606,10 +2860,22 @@ dt{
 
 }
 
+#Mangram_sta_lbl{
+	bottom: 2870px;
+	left:3755px;
+	display: none;
+}
+
 #Kraagsreennuum_sta{
 	bottom: 3745px;
 	left:3870px;
 
+}
+
+#Kraagsreennuum_sta_lbl{
+	bottom: 3300px;
+	left:3415px;
+	display: none;
 }
 
 #Sreenkloolhvuug_sta{
@@ -1618,10 +2884,22 @@ dt{
 
 }
 
+#Sreenkloolhvuug_sta_lbl{
+	bottom: 3190px;
+	left:3640px;
+	display: none;
+}
+
 #Kraagsreentoong_sta{
 	bottom: 3865px;
 	left:3970px;
 
+}
+
+#Kraagsreentoong_sta_lbl{
+	bottom: 3430px;
+	left:3525px;
+	display: none;
 }
 
 #Kragsreensuul_sta{
@@ -1630,10 +2908,22 @@ dt{
 
 }
 
+#Kragsreensuul_sta_lbl{
+	bottom: 3500px;
+	left:3350px;
+	display: none;
+}
+
 #Dyokroon_sta{
 	bottom: 4125px;
 	left:4080px;
 
+}
+
+#Dyokroon_sta_lbl{
+	bottom: 3695px;
+	left:3625px;
+	display: none;
 }
 
 #Shleengrogzrads_sta{
@@ -1642,10 +2932,22 @@ dt{
 
 }
 
+#Shleengrogzrads_sta_lbl{
+	bottom: 4030px;
+	left:3560px;
+	display: none;
+}
+
 #Rangsreenkroongkroong_sta{
 	bottom: 4700px;
 	left:4220px;
 
+}
+
+#Rangsreenkroongkroong_sta_lbl{
+	bottom: 4275px;
+	left:3775px;
+	display: none;
 }
 
 #Goongraals_sta{
@@ -1654,10 +2956,22 @@ dt{
 
 }
 
+#Goongraals_sta_lbl{
+	bottom: 4325px;
+	left:4070px;
+	display: none;
+}
+
 #Deensthaaws_sta{
 	bottom: 5170px;
 	left:4720px;
 
+}
+
+#Deensthaaws_sta_lbl{
+	bottom: 4720px;
+	left:4257px;
+	display: none;
 }
 
 #Kraagsreenpuug_sta{
@@ -1666,10 +2980,22 @@ dt{
 
 }
 
+#Kraagsreenpuug_sta_lbl{
+	bottom: 3765px;
+	left:3270px;
+	display: none;
+}
+
 #buunskroondyu_sta{
 	bottom: 5635px;
 	left:2520px;
 
+}
+
+#buunskroondyu_sta_lbl{
+	bottom: 5670px;
+	left:2520px;
+	display: none;
 }
 
 #Sreenklool_sta{
@@ -1678,10 +3004,22 @@ dt{
 
 }
 
+#Sreenklool_sta_lbl{
+	bottom: 3020px;
+	left:3125px;
+	display: none;
+}
+
 #Deensthaawsnuum_sta{
 	bottom: 4480px;
 	left:3700px;
 
+}
+
+#Deensthaawsnuum_sta_lbl{
+	bottom: 4500px;
+	left:3505px;
+	display: none;
 }
 
 #Shaangdyagzraads_sta{
@@ -1690,10 +3028,22 @@ dt{
 
 }
 
+#Shaangdyagzraads_sta_lbl{
+	bottom: 4300px;
+	left:4590px;
+	display: none;
+}
+
 #Gwengaa_sta{
 	bottom: 3510px;
 	left:4350px;
 
+}
+
+#Gwengaa_sta_lbl{
+	bottom: 3540px;
+	left:4180px;
+	display: none;
 }
 
 #Orkaxtal_sta{
@@ -1702,10 +3052,22 @@ dt{
 
 }
 
+#Orkaxtal_sta_lbl{
+	bottom: 3445px;
+	left:4780px;
+	display: none;
+}
+
 #Ngongbrong_sta{
 	bottom: 3610px;
 	left:4980px;
 
+}
+
+#Ngongbrong_sta_lbl{
+	bottom: 3190px;
+	left:4510px;
+	display: none;
 }
 
 #Nuumgraamqlegkloog_sta{
@@ -1714,10 +3076,30 @@ dt{
 
 }
 
+#Nuumgraamqlegkloog_sta_lbl{
+	bottom: 3065px;
+	left:4310px;
+	z-index: 2;
+	display: none;
+}
+
+
+/*#Ngongbrong_sta_lbl{
+	bottom: 3610px;
+	left:4980px;
+
+}*/
+
 #Ngrummun_sta{
 	bottom: 3350px;
 	left:4465px;
 
+}
+
+#Ngrummun_sta_lbl{
+	bottom: 2925px;
+	left:4005px;
+	display: none;
 }
 
 #Kolotorx_sta{
@@ -1726,10 +3108,22 @@ dt{
 
 }
 
+#Kolotorx_sta_lbl{
+	bottom: 3105px;
+	left:4770px;
+	display: none;
+}
+
 #Xoxkan_sta{
 	bottom: 3315px;
 	left:5060px;
 
+}
+
+#Xoxkan_sta_lbl{
+	bottom: 2895px;
+	left:4615px;
+	display: none;
 }
 
 #Kruungsenhvuug_sta{
@@ -1738,10 +3132,22 @@ dt{
 
 }
 
+#Kruungsenhvuug_sta_lbl{
+	bottom: 2775px;
+	left:4450px;
+	display: none;
+}
+
 #Kruungsen_sta{
 	bottom: 2960px;
 	left:4810px;
 
+}
+
+#Kruungsen_sta_lbl{
+	bottom: 2540px;
+	left:4360px;
+	display: none;
 }
 
 #lakeNorth_sta{
@@ -1750,10 +3156,22 @@ dt{
 
 }
 
+#lakeNorth_sta_lbl{
+	bottom: 3690px;
+	left:5200px;
+	display: none;
+}
+
 #lakeEast_sta{
 	bottom: 3990px;
 	left:5580px;
 
+}
+
+#lakeEast_sta_lbl{
+	bottom: 3560px;
+	left:5130px;
+	display: none;
 }
 
 #Daadshvre_sta{
@@ -1762,10 +3180,22 @@ dt{
 
 }
 
+#Daadshvre_sta_lbl{
+	bottom: 4030px;
+	left:3820px;
+	display: none;
+}
+
 #Puuggraamqlegkloog_sta{
 	bottom: 4300px;
 	left:4560px;
 
+}
+
+#Puuggraamqlegkloog_sta_lbl{
+	bottom: 3880px;
+	left:4105px;
+	display: none;
 }
 
 #Graamqlegkloog_sta{
@@ -1774,10 +3204,22 @@ dt{
 
 }
 
+#Graamqlegkloog_sta_lbl{
+	bottom: 3460px;
+	left:4050px;
+	display: none;
+}
+
 #Hvruukloog_sta{
 	bottom: 4820px;
 	left:5230px;
 
+}
+
+#Hvruukloog_sta_lbl{
+	bottom: 4390px;
+	left:4780px;
+	display: none;
 }
 
 #Shaangdyagzraadssuul_sta{
@@ -1786,10 +3228,22 @@ dt{
 
 }
 
+#Shaangdyagzraadssuul_sta_lbl{
+	bottom: 4300px;
+	left:5100px;
+	display: none;
+}
+
 #Daadskuubgraam_sta{
 	bottom: 4760px;
 	left:2950px;
 
+}
+
+#Daadskuubgraam_sta_lbl{
+	bottom: 4790px;
+	left:2800px;
+	display: none;
 }
 
 #DaadskuubgraamWest_sta{
@@ -1798,10 +3252,22 @@ dt{
 
 }
 
+#DaadskuubgraamWest_sta_lbl{
+	bottom: 4900px;
+	left:2190px;
+	display: none;
+}
+
 #leebskheemWest_station{
 	bottom: 4905px;
 	left:500px;	
 
+}
+
+#leebskheemWest_station_lbl{
+	bottom: 4985px;
+	left:500px;	
+	display: none;
 }
 
 #mudsmengNorth_Station{
@@ -1810,10 +3276,22 @@ dt{
 
 }
 
+#mudsmengNorth_Station_lbl{
+	bottom: 4875px;
+	left:790px;	
+	display: none;
+}
+
 #leebskheem_Station{
 	bottom: 4850px;
 	left:1725px;	
 
+}
+
+#leebskheem_Station_lbl{
+	bottom: 4890px;
+	left:1725px;	
+	display: none;
 }
 
 #leebskheemEast_Station{
@@ -1822,10 +3300,22 @@ dt{
 
 }
 
+#leebskheemEast_Station_lbl{
+	bottom: 4850px;
+	left:2275px;
+	display: none;
+}
+
 #Kheeglyils_Station{
 	bottom: 4870px;
 	left:2640px;
 
+}
+
+#Kheeglyils_Station_lbl{
+	bottom: 4870px;
+	left:2640px;
+	display: none;
 }
 
 #Shuugunsreen_Station{
@@ -1834,10 +3324,22 @@ dt{
 
 }
 
+#Shuugunsreen_Station_lbl{
+	bottom: 1270px;
+	left:2350px;
+	display: none;
+}
+
 #ShuugunsreegraqraWest_Station{
 	bottom: 760px;
 	left:2600px;
 
+}
+
+#ShuugunsreegraqraWest_Station_lbl{
+	bottom: 790px;
+	left:2610px;
+	display: none;
 }
 
 #Shuugunsreegraqra_Station{
@@ -1846,10 +3348,22 @@ dt{
 
 }
 
+#Shuugunsreegraqra_Station_lbl{
+	bottom: 790px;
+	left:2749px;
+	display: none;
+}
+
 #ShuugunsreegraqraWestII_Station{
 	bottom: 580px;
 	left:2600px;
 
+}
+
+#ShuugunsreegraqraWestII_Station_lbl{
+	bottom: 620px;
+	left:2620px;
+	display: none;
 }
 
 #ShuugunsreegraqraSouth_Station{
@@ -1858,10 +3372,22 @@ dt{
 
 }
 
+#ShuugunsreegraqraSouth_Station_lbl{
+	bottom: 0px;
+	left:2620px;
+	display: none;
+}
+
 #qangdyeng_Station{
 	bottom: -350px;
 	left:2590px;
 
+}
+
+#qangdyeng_Station_lbl{
+	bottom: -350px;
+	left:2590px;
+	display: none;
 }
 
 #induParkNorth_Station{
@@ -1870,10 +3396,22 @@ dt{
 
 }
 
+#induParkNorth_Station_lbl{
+	bottom: 665px;
+	left:2960px;
+	display: none;
+}
+
 #fifthRing_Station{
 	bottom: 480px;
 	left:3000px;
 
+}
+
+#fifthRing_Station_lbl{
+	bottom: 480px;
+	left:3000px;
+	display: none;
 }
 
 #induParkSouth_Station{
@@ -1882,10 +3420,22 @@ dt{
 
 }
 
+#induParkSouth_Station_lbl{
+	bottom: 280px;
+	left:2995px;
+	display: none;
+}
+
 #outerRing_Station{
 	bottom: 20px;
 	left:2985px;
 
+}
+
+#outerRing_Station_lbl{
+	bottom: 20px;
+	left:2985px;
+	display: none;
 }
 
 #Qandyeng_Station{
@@ -1894,10 +3444,22 @@ dt{
 
 }
 
+#Qandyeng_Station_lbl{
+	bottom: -350px;
+	left:2975px;
+	display: none;
+}
+
 #sreenkhee_Station{
 	bottom: 680px;
 	left:3275px;
 
+}
+
+#sreenkhee_Station_lbl{
+	bottom: 680px;
+	left:3275px;
+	display: none;
 }
 
 #roomdyagkhooWest_Station{
@@ -1906,10 +3468,22 @@ dt{
 
 }
 
+#roomdyagkhooWest_Station_lbl{
+	bottom: 920px;
+	left:3455px;
+	display: none;
+}
+
 #roomdyagkhooNorth_Station{
 	bottom: 1190px;
 	left:3575px;
 
+}
+
+#roomdyagkhooNorth_Station_lbl{
+	bottom: 1210px;
+	left:3575px;
+	display: none;
 }
 
 #roomdyagkhoo_Station{
@@ -1918,10 +3492,22 @@ dt{
 
 }
 
+#roomdyagkhoo_Station_lbl{
+	bottom: 900px;
+	left:3250px;
+	display: none;
+}
+
 #roomdyagkhooSouth_Station{
 	bottom: 500px;
 	left:3595px;
 
+}
+
+#roomdyagkhooSouth_Station_lbl{
+	bottom: 500px;
+	left:3595px;
+	display: none;
 }
 
 #b_sta{
@@ -1930,10 +3516,22 @@ dt{
 
 }
 
+#b_sta_lbl{
+	bottom: 855px;
+	left:2895px;
+	display: none;
+}
+
 #quunleen_Station{
 	bottom: -30px;
 	left:4435px;
 
+}
+
+#quunleen_Station_lbl{
+	bottom: -10px;
+	left:4435px;
+	display: none;
 }
 
 #Thyunggaa_Station{
@@ -1942,16 +3540,34 @@ dt{
 
 }
 
+#Thyunggaa_Station_lbl{
+	bottom: 580px;
+	left:2345px;
+	display: none;
+}
+
 #Grumboong_Station{
 	bottom: 130px;
 	left:1450px;
 
 }
 
+#Grumboong_Station_lbl{
+	bottom: 180px;
+	left:1450px;
+	display: none;
+}
+
 #scholarLake_Station{
 	bottom: 4390px;
 	left:2075px;
 
+}
+
+#scholarLake_Station_lbl{
+	bottom: 4390px;
+	left:2045px;
+	display: none;
 }
 
 #tyodyengdyu_district {
